@@ -10,10 +10,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Viajemos Juntos</title>
 </head>
-<div class="banner"></div>
+
 <body class="fondo">
+  <div class="barra"></div>
   <header>
-    <div class="margen">
+    <div class="container">
       <div class="row">
         <div class="col l2 m6 s4">
           <img src="img/logo.jpg" alt="fondo" class="responsive-img">
@@ -29,14 +30,14 @@
           </a>
           <a class="waves-effect waves-light btn  blue lighten-1">
             <i class="material-icons left">star</i>
-            <span class="hide-on-small-only">Mejores Viajes</span>
+            <span class="hide-on-small-only">Viajes</span>
           </a>
           <a class="waves-effect waves-light btn blue lighten-1">
             <i class="material-icons left">mode_comment</i>
-            <span class="hide-on-small-only">Recomendaciones</span>
+            <span class="hide-on-small-only">Recomendados</span>
           </a>
         </div>
-        <div class="center-align margen">
+        <div class="center-align">
           <h4>Vamos a Viajar</h4>
         </div>
       </div>
@@ -44,24 +45,153 @@
   </header>
   <section>
     <div class="row">
-      <div class="col l1 m1">
+      <div class="col l1 m1 hide-on-small-only">
         <ul>
-          <li>
-            <img src="img/facebook-logo.png" alt="facebook">
+          <li class="margen">
+            <a href="#">
+              <img src="img/facebook-logo.png" alt="facebook">
+            </a>
           </li>
-          <li>
-            <img src="img/instagram-logo.png" alt="instagram">
+          <li class="margen">
+            <a href="#">
+              <img src="img/instagram-logo.png" alt="instagram">
+            </a>
           </li>
-          <li>
+          <li class="margen">
             <img src="img/pinterest.png" alt="pinterest">
           </li>
-          <li>
-            <img src="img/twitter-logo.png" alt="twitter">
+          <li class="margen">
+            <a href="#">
+              <img src="img/twitter-logo.png" alt="twitter">
+            </a>
           </li>
           <li>
-            <img src="img/youtube-logo.png" alt="">
+            <a href="#">
+              <img src="img/youtube-logo.png" alt="">
+            </a>
           </li>
         </ul>
+      </div>
+      <div class="col l11 m11 s12">
+        <div class="col l12 center-align">
+          <div class="col l4 m4 s12">
+            <img src="img/imagen3.jpg" alt="imagen1" class="responsive-img z-depth-5">
+          </div>
+          <div class="col l4 m4 s12">
+            <img src="img/imagen5.jpg" alt="imagen2" class="responsive-img z-depth-5">
+          </div>
+          <div class="col l4 m4 s12">
+            <img src="img/imagen2.jpg" alt="imagen5" class="responsive-img z-depth-5">
+          </div>
+          <div class="col l4 m4 s12">
+            <img src="img/imagen1.jpg" alt="imagen3" class="responsive-img z-depth-5">
+          </div>
+          <div class="col l4 m4 s12">
+            <img src="img/imagen4.jpg" alt="imagen4" class="responsive-img z-depth-5">
+          </div>
+          <div class="col l4 m4 s12">
+            <img src="img/imagen6.jpg" alt="imagen6" class="responsive-img z-depth-5">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col l8 m8 s12">
+        <div class="row white">
+          <div class="col l3 m3 s12 valing-wrapper">
+            <img src="img/acuario.png" alt="acuario rodadero" class="responsive-img valing">
+          </div>
+          <div class="col l9 m9 s12">
+            <h2>Acuario Rodadero</h2>
+            <div class="chip">
+              <i class="material-icons right">today</i> 16 de enero de 2018
+            </div>
+            <div class="chip">
+              <i class="material-icons right">location_on</i> Santa Marta; Colombia
+            </div>
+          </div>
+          <div class="flow-text texto">
+            <p>
+              El Acuario y Museo del Mar del Rodadero abre sus puertas desde el año de 1965 por iniciativa de uno los personajes más reconocidos de Santa Marta, Francisco Ospina Navia, 'El Capi', también conocido por su aporte a la conservación de diferentes vestigios
+              arqueológicos taironas.
+            </p>
+            <p>
+              En una ciudad de ostensibles primacías como lo es Santa Marta (primera ciudad fundada en Colombia, poseedora del monte costero más alto del mundo, la bahía más linda de América, etc.), el Acuario hace gala de haber sido el primer acuario público de Suramérica.
+            </p>
+            <div class="row blue lighten-1">
+              <form class="col s12">
+                <h4>Deja tu Comentario</h4>
+                <div class="row">
+                  <div class="input-field col s6">
+                    <i class="material-icons prefix">account_circle</i>
+                    <input placeholder="Nombre" type="text" class="validate">
+                    <label for="icon_prefix">First Name</label>
+                  </div>
+                  <div class="input-field col s6">
+                    <i class="material-icons prefix">phone</i>
+                    <input placeholder="ejemplo@dominio.com" type="email" class="validate">
+                    <label for="email" data-error="wrong" data-success="right">Email</label>
+                  </div>
+                  <div class="input-field col s12">
+                    <i class="material-icons prefix">phone</i>
+                    <textarea placeholder="Comenetario" class="materialize-textarea"></textarea>
+                    <label for="textarea1">Comentario</label>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="row white">
+          <div class="col l3 m3 s12 valing-wrapper">
+            <img src="img/acuario.png" alt="acuario rodadero" class="responsive-img valing">
+          </div>
+          <div class="col l9 m9 s12">
+            <h2>Acuario Rodadero</h2>
+            <div class="chip">
+              <i class="material-icons right">today</i> 16 de enero de 2018
+            </div>
+            <div class="chip">
+              <i class="material-icons right">location_on</i> Santa Marta; Colombia
+            </div>
+          </div>
+          <div class="flow-text texto">
+            <p>
+              El Acuario y Museo del Mar del Rodadero abre sus puertas desde el año de 1965 por iniciativa de uno los personajes más reconocidos de Santa Marta, Francisco Ospina Navia, 'El Capi', también conocido por su aporte a la conservación de diferentes vestigios
+              arqueológicos taironas.
+            </p>
+            <p>
+              En una ciudad de ostensibles primacías como lo es Santa Marta (primera ciudad fundada en Colombia, poseedora del monte costero más alto del mundo, la bahía más linda de América, etc.), el Acuario hace gala de haber sido el primer acuario público de Suramérica.
+            </p>
+            <div class="row blue lighten-1">
+              <form class="col s12">
+                <h4>Deja tu Comentario</h4>
+                <div class="row">
+                  <div class="input-field col s6">
+                    <i class="material-icons prefix">account_circle</i>
+                    <input placeholder="Nombre" type="text" class="validate">
+                    <label for="icon_prefix">First Name</label>
+                  </div>
+                  <div class="input-field col s6">
+                    <i class="material-icons prefix">phone</i>
+                    <input placeholder="ejemplo@dominio.com" type="email" class="validate">
+                    <label for="email" data-error="wrong" data-success="right">Email</label>
+                  </div>
+                  <div class="input-field col s12">
+                    <i class="material-icons prefix">phone</i>
+                    <textarea placeholder="Comenetario" class="materialize-textarea"></textarea>
+                    <label for="textarea1">Comentario</label>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col l4 m4 s12">
+        <div class="row">
+          
+        </div>
       </div>
     </div>
   </section>
